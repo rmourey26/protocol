@@ -2091,6 +2091,23 @@ dependencies = [
 ]
 
 [[package]]
+name = "fractal-holder-rewards"
+version = "0.1.0"
+dependencies = [
+ "fractal-token-distribution",
+ "frame-benchmarking",
+ "frame-support",
+ "frame-system",
+ "maplit",
+ "pallet-balances",
+ "parity-scale-codec 2.3.1",
+ "serde",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
+]
+
+[[package]]
 name = "fractal-protocol-blockchain-node"
 version = "0.1.0"
 dependencies = [
